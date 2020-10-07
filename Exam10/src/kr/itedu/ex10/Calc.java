@@ -5,5 +5,9 @@ public class Calc {
 	public static int sum(int n1, int n2) {
 		// return n1 * n2; 이건 더한 값이 아니라 곱한 값임
 		return n1 + n2;
-	}	
+	}
+	
+	public static int minus(int n1, int n2) {
+		return n1 - n2;
+	}
 }
